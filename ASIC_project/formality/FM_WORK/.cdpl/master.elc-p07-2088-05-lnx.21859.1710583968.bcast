@@ -1,0 +1,7 @@
+# Master Broadcast File
+time 1710583968
+pid 21859
+log /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/formality/FM_WORK/.cdpl/master.elc-p07-2088-05-lnx.21859.log
+tcp 10.7.165.111:36686
+wlog /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/formality/FM_WORK/.cdpl/worker.W1.elc-p07-2088-05-lnx.22265.log
+status done

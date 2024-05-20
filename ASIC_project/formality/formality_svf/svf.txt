@@ -1,0 +1,401 @@
+
+
+##################################################################################
+# Copyright 2002-2024 Synopsys, Inc.  All rights reserved.
+# This Synopsys product and all associated documentation and files are
+# proprietary to Synopsys, Inc. and may only be used pursuant to the terms
+# and conditions of a written license agreement with Synopsys, Inc. All other
+# use, reproduction, modification, or distribution of the Synopsys product or
+# the associated documentation or files is strictly prohibited.
+##################################################################################
+
+
+## SVF file read: /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/default.svf
+
+guide \
+  -tool { Design Compiler } \
+  -version { V-2023.12 built Nov 27, 2023 } \
+  -SVF { 21.230 } \
+  -timestamp { Sat Mar 16 12:05:48 2024 } 
+
+## Operation Id: 1
+guide_environment \
+  { { dc_product_version V-2023.12 } \
+    { dc_product_build_date { Nov 27, 2023 } } \
+    { bus_dimension_separator_style ][ } \
+    { bus_extraction_style %s\[%d:%d\] } \
+    { bus_multiple_separator_style , } \
+    { bus_naming_style %s[%d] } \
+    { bus_range_separator_style : } \
+    { dc_allow_rtl_pg false } \
+    { hdlin_allow_4state_parameters TRUE } \
+    { hdlin_unified_rtl_read FALSE } \
+    { hdlin_enable_hier_naming FALSE } \
+    { hdlin_enable_upf_compatible_naming FALSE } \
+    { hdlin_vhdl_preserve_case FALSE } \
+    { hdlin_generate_naming_style %s_%d } \
+    { hdlin_generate_separator_style _ } \
+    { hdlin_infer_enumerated_types FALSE } \
+    { hdlin_interface_port_downto FALSE } \
+    { hdlin_optimize_enum_types FALSE } \
+    { hdlin_preserve_sequential none } \
+    { hdlin_sverilog_std 2017 } \
+    { hdlin_sv_packages dont_chain } \
+    { hdlin_sv_union_member_naming FALSE } \
+    { hdlin_vhdl_std 2008 } \
+    { hdlin_vrlg_std 2005 } \
+    { hdlin_v2005_replication_semantics TRUE } \
+    { hdlin_while_loop_iterations 4096 } \
+    { hdlin_enable_verilog_configurations_canonical TRUE } \
+    { hdlin_enable_verilog_configurations_array_n_block TRUE } \
+    { hdlin_enable_persistent_macros FALSE } \
+    { hdlin_persistent_macros_filename syn_auto_generated_macro_file.sv } \
+    { link_portname_allow_period_to_match_underscore false } \
+    { link_portname_allow_square_bracket_to_match_underscore false } \
+    { port_complement_naming_style %s_BAR } \
+    { simplified_verification_mode FALSE } \
+    { template_naming_style %s_%p } \
+    { template_parameter_style %s%d } \
+    { template_separator_style _ } \
+    { upf_iso_filter_elements_with_applies_to ENABLE } \
+    { upf_isols_allow_instances_in_elements true } \
+    { link_library { * saed90nm_max_lth.db } } \
+    { target_library saed90nm_max_lth.db } \
+    { search_path /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/StandardCell/SAED90nm_EDK_10072017/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models } \
+    { synopsys_root /eda/synopsys/syn/V-2023.12 } \
+    { cwd /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn } \
+    { define_design_lib { -path ./work work } } \
+    { analyze { -format verilog -library work ../RTL/pit_top.v } } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 2
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 3
+guide_file_info \
+  -file { ../RTL/pit_wb_bus.v } \
+  -cksum_file { Svf1/checksums/34502_01f69fe726398865b8610ba6bfdd4d5c.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 34502 } \
+  -cksum { 01f69fe726398865b8610ba6bfdd4d5c } \
+  -version { 21.230 } 
+
+## Operation Id: 4
+guide_file_info \
+  -file { ../RTL/pit_regs.v } \
+  -cksum_file { Svf1/checksums/12130_a624c5339448b3cd7c6321e4e7fe7682.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 12130 } \
+  -cksum { a624c5339448b3cd7c6321e4e7fe7682 } \
+  -version { 21.230 } 
+
+## Operation Id: 5
+guide_file_info \
+  -file { ../RTL/pit_prescale.v } \
+  -cksum_file { Svf1/checksums/67236_48f21f32165d1752a184d6c357cf9c01.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 67236 } \
+  -cksum { 48f21f32165d1752a184d6c357cf9c01 } \
+  -version { 21.230 } 
+
+## Operation Id: 6
+guide_file_info \
+  -file { ../RTL/pit_count.v } \
+  -cksum_file { Svf1/checksums/23558_1039affb530ce9c0478c07e47cae53f5.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 23558 } \
+  -cksum { 1039affb530ce9c0478c07e47cae53f5 } \
+  -version { 21.230 } 
+
+## Operation Id: 7
+guide_file_info \
+  -file { ../RTL/pit_top.v } \
+  -cksum_file { Svf1/checksums/52775_31cdab704ab1c851442328cec5c95e34.cksum } \
+  -language { svfFileInfoLangVerilog } \
+  -nameID { 52775 } \
+  -cksum { 31cdab704ab1c851442328cec5c95e34 } \
+  -version { 21.230 } 
+
+## Operation Id: 8
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 9
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 10
+guide_instance_map \
+  -design { pit_top } \
+  -instance { wishbone } \
+  -linked { pit_wb_bus_0_16_0 } 
+
+## Operation Id: 11
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 12
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 13
+guide_instance_map \
+  -design { pit_top } \
+  -instance { regs } \
+  -linked { pit_regs_0_16_0_16 } 
+
+## Operation Id: 14
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 15
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 16
+guide_instance_map \
+  -design { pit_top } \
+  -instance { prescale } \
+  -linked { pit_prescale_15_1_0 } 
+
+## Operation Id: 17
+guide_replace \
+  -origin { Presto_aco } \
+  -design { pit_prescale_15_1_0 } \
+  -type { svfReplacePrestoConditionalAccumulation } \
+  -input { 1 src_1 } \
+  -input { 1 src_2 } \
+  -input { 15 src_3 } \
+  -output { 15 aco_out } \
+  -pre_resource { { 15 } add_122 = ADD { { src_3 ZERO 15 } { U`b000000000000001 } } } \
+  -pre_resource { { 15 } C176 = SELECT { { src_1 } { src_2 } { U`b000000000000001 } { add_122 ZERO 15 } } } \
+  -pre_assign { aco_out = { C176 ZERO 15 } } \
+  -post_resource { { 15 } mult_add_122_aco = MULT { { src_3 ZERO 15 } { src_2 ZERO 15 } } } \
+  -post_resource { { 15 } add_122_aco = ADD { { mult_add_122_aco ZERO 15 } { U`b000000000000001 } } } \
+  -post_assign { aco_out = { add_122_aco ZERO 15 } } 
+
+## Operation Id: 18
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 19
+guide_mark \
+  -type { svfMarkTypeBegin } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 20
+guide_instance_map \
+  -design { pit_top } \
+  -instance { counter } \
+  -linked { pit_count_COUNT_SIZE16 } 
+
+## Operation Id: 21
+guide_mark \
+  -type { svfMarkTypeEnd } \
+  -phase { svfMarkPhasePresto } 
+
+## Operation Id: 22
+guide_environment \
+  { { precompile_db_list /eda/synopsys/syn/V-2023.12/libraries/syn/gtech.db } } 
+
+## Operation Id: 23
+guide_environment \
+  { { elaborate { -library work pit_top } } \
+    { current_design pit_top } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+## Operation Id: 24
+guide_transformation \
+  -design { pit_count_COUNT_SIZE16 } \
+  -type { map } \
+  -input { 16 src1 } \
+  -input { 16 src2 } \
+  -output { 1 src3 } \
+  -pre_resource { { 1 } eq_65 = EQ { { src1 } { src2 } } } \
+  -pre_assign { src3 = { eq_65.out.1 } } \
+  -post_resource { { 0 0 0 0 1 0 } eq_65 = CMP6 { { src1 } { src2 } { 0 } } } \
+  -post_assign { src3 = { eq_65.out.5 } } 
+
+## Operation Id: 25
+guide_transformation \
+  -design { pit_count_COUNT_SIZE16 } \
+  -type { map } \
+  -input { 16 src1 } \
+  -output { 16 src5 } \
+  -pre_resource { { 16 } add_76 = UADD { { src1 } { `b0000000000000001 } } } \
+  -pre_assign { src5 = { add_76.out.1 } } \
+  -post_resource { { 16 } add_76 = ADD { { src1 } { `b0000000000000001 } } } \
+  -post_assign { src5 = { add_76.out.1 } } 
+
+## Operation Id: 26
+guide_uniquify \
+  -design { DW01_absval_width1 } \
+  { { NEG DW01_inc_width1_DW01_inc_0 } } 
+
+## Operation Id: 27
+guide_uniquify \
+  -design { DW02_mult_A_width15_B_width1 } \
+  { { A2_2 DW01_absval_width1_DW01_absval_0 } } 
+
+## Operation Id: 28
+guide_uniquify \
+  -design { DW02_mult_A_width1_B_width15 } \
+  { { A2_1 DW01_absval_width1_DW01_absval_1 } } 
+
+## Operation Id: 29
+guide_transformation \
+  -design { pit_prescale_15_1_0 } \
+  -type { map } \
+  -input { 15 src11 } \
+  -input { 15 src12 } \
+  -output { 1 src13 } \
+  -pre_resource { { 1 } eq_106 = EQ { { src11 } { src12 } } } \
+  -pre_assign { src13 = { eq_106.out.1 } } \
+  -post_resource { { 0 0 0 0 1 0 } eq_106 = CMP6 { { src11 } { src12 } { 0 } } } \
+  -post_assign { src13 = { eq_106.out.5 } } 
+
+## Operation Id: 30
+guide_transformation \
+  -design { pit_prescale_15_1_0 } \
+  -type { map } \
+  -input { 15 src15 } \
+  -output { 15 src17 } \
+  -pre_resource { { 15 } add_122_aco = UADD { { src15 } { `b000000000000001 } } } \
+  -pre_assign { src17 = { add_122_aco.out.1 } } \
+  -post_resource { { 15 } add_122_aco = ADD { { src15 } { `b000000000000001 } } } \
+  -post_assign { src17 = { add_122_aco.out.1 } } 
+
+## Operation Id: 31
+guide_transformation \
+  -design { pit_prescale_15_1_0 } \
+  -type { map } \
+  -input { 15 src11 } \
+  -input { 1 src14 } \
+  -output { 16 src15 } \
+  -pre_resource { { 16 } mult_add_122_aco = MULT_TC { { src11 } { src14 } { 0 } } } \
+  -pre_assign { src15 = { mult_add_122_aco.out.1 } } \
+  -post_resource { { 16 } mult_add_122_aco = MULT_TC { { src11 } { src14 } { 0 } } } \
+  -post_assign { src15 = { mult_add_122_aco.out.1 } } 
+
+## Operation Id: 32
+guide_uniquify \
+  -design { pit_top } \
+  { { counter/add_76 pit_count_COUNT_SIZE16_DW01_inc_0_DW01_inc_1 } } 
+
+## Operation Id: 33
+guide_uniquify \
+  -design { pit_top } \
+  { { counter/eq_65 pit_count_COUNT_SIZE16_DW01_cmp6_0 } } 
+
+## Operation Id: 34
+guide_uniquify \
+  -design { pit_top } \
+  { { prescale/add_122_aco pit_prescale_15_1_0_DW01_inc_0_DW01_inc_2 } } 
+
+## Operation Id: 35
+guide_uniquify \
+  -design { pit_top } \
+  { { prescale/mult_add_122_aco pit_prescale_15_1_0_DW02_mult_0 } } 
+
+## Operation Id: 36
+guide_uniquify \
+  -design { pit_top } \
+  { { prescale/eq_106 pit_prescale_15_1_0_DW01_cmp6_0_DW01_cmp6_1 } } 
+
+## Operation Id: 37
+guide_multiplier \
+  -design { pit_top } \
+  -instance { prescale/mult_add_122_aco } \
+  -arch { csa } 
+
+## Operation Id: 38
+guide_environment \
+  { { postcompile_db_list /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/StandardCell/SAED90nm_EDK_10072017/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } } 
+
+## Operation Id: 39
+guide_change_names \
+  -design { pit_wb_bus_0_16_0 } \
+  { { cell addr_latch_reg[2] addr_latch_reg_2_ } \
+    { cell addr_latch_reg[1] addr_latch_reg_1_ } \
+    { cell addr_latch_reg[0] addr_latch_reg_0_ } } 
+
+## Operation Id: 40
+guide_change_names \
+  -design { pit_regs_0_16_0_16 } \
+  { { cell mod_value_reg[15] mod_value_reg_15_ } \
+    { cell mod_value_reg[14] mod_value_reg_14_ } \
+    { cell mod_value_reg[13] mod_value_reg_13_ } \
+    { cell mod_value_reg[12] mod_value_reg_12_ } \
+    { cell mod_value_reg[11] mod_value_reg_11_ } \
+    { cell mod_value_reg[10] mod_value_reg_10_ } \
+    { cell mod_value_reg[9] mod_value_reg_9_ } \
+    { cell mod_value_reg[8] mod_value_reg_8_ } \
+    { cell mod_value_reg[7] mod_value_reg_7_ } \
+    { cell mod_value_reg[6] mod_value_reg_6_ } \
+    { cell mod_value_reg[5] mod_value_reg_5_ } \
+    { cell mod_value_reg[4] mod_value_reg_4_ } \
+    { cell mod_value_reg[3] mod_value_reg_3_ } \
+    { cell mod_value_reg[2] mod_value_reg_2_ } \
+    { cell mod_value_reg[1] mod_value_reg_1_ } \
+    { cell mod_value_reg[0] mod_value_reg_0_ } \
+    { cell pit_pre_reg[3] pit_pre_reg_3_ } \
+    { cell pit_pre_reg[2] pit_pre_reg_2_ } \
+    { cell pit_pre_reg[1] pit_pre_reg_1_ } \
+    { cell pit_pre_reg[0] pit_pre_reg_0_ } } 
+
+## Operation Id: 41
+guide_change_names \
+  -design { pit_prescale_15_1_0 } \
+  { { cell cnt_n_reg[0] cnt_n_reg_0_ } \
+    { cell cnt_n_reg[1] cnt_n_reg_1_ } \
+    { cell cnt_n_reg[2] cnt_n_reg_2_ } \
+    { cell cnt_n_reg[3] cnt_n_reg_3_ } \
+    { cell cnt_n_reg[4] cnt_n_reg_4_ } \
+    { cell cnt_n_reg[5] cnt_n_reg_5_ } \
+    { cell cnt_n_reg[6] cnt_n_reg_6_ } \
+    { cell cnt_n_reg[7] cnt_n_reg_7_ } \
+    { cell cnt_n_reg[8] cnt_n_reg_8_ } \
+    { cell cnt_n_reg[9] cnt_n_reg_9_ } \
+    { cell cnt_n_reg[10] cnt_n_reg_10_ } \
+    { cell cnt_n_reg[11] cnt_n_reg_11_ } \
+    { cell cnt_n_reg[12] cnt_n_reg_12_ } \
+    { cell cnt_n_reg[13] cnt_n_reg_13_ } \
+    { cell cnt_n_reg[14] cnt_n_reg_14_ } } 
+
+## Operation Id: 42
+guide_change_names \
+  -design { pit_count_COUNT_SIZE16 } \
+  { { cell cnt_n_reg[0] cnt_n_reg_0_ } \
+    { cell cnt_n_reg[15] cnt_n_reg_15_ } \
+    { cell cnt_n_reg[1] cnt_n_reg_1_ } \
+    { cell cnt_n_reg[2] cnt_n_reg_2_ } \
+    { cell cnt_n_reg[3] cnt_n_reg_3_ } \
+    { cell cnt_n_reg[4] cnt_n_reg_4_ } \
+    { cell cnt_n_reg[5] cnt_n_reg_5_ } \
+    { cell cnt_n_reg[6] cnt_n_reg_6_ } \
+    { cell cnt_n_reg[7] cnt_n_reg_7_ } \
+    { cell cnt_n_reg[8] cnt_n_reg_8_ } \
+    { cell cnt_n_reg[9] cnt_n_reg_9_ } \
+    { cell cnt_n_reg[10] cnt_n_reg_10_ } \
+    { cell cnt_n_reg[11] cnt_n_reg_11_ } \
+    { cell cnt_n_reg[12] cnt_n_reg_12_ } \
+    { cell cnt_n_reg[13] cnt_n_reg_13_ } \
+    { cell cnt_n_reg[14] cnt_n_reg_14_ } } 
+
+## Operation Id: 43
+guide_environment \
+  { { write_file { -format verilog -hierarchy -output output/pit_top.v } } \
+    { write_file { -format ddc -hierarchy -output output/pit_top.ddc } } \
+    { compile_seqmap_propagate_high_effort true } } 
+
+setup
+

@@ -1,0 +1,10 @@
+Info:  Net r:/WORK/pit_top/regs.pit_flag is undriven.
+Info:  guide_uniquify 26 (Line: 239)  Cannot find reference design 'DW01_absval_width1'.
+Info:  SVF Operation 26 (Line: 239) - uniquify.  Status: rejected
+Info:  guide_uniquify 27 (Line: 244)  Cannot find reference design 'DW02_mult_A_width15_B_width1'.
+Info:  SVF Operation 27 (Line: 244) - uniquify.  Status: rejected
+Info:  guide_uniquify 28 (Line: 249)  Cannot find reference design 'DW02_mult_A_width1_B_width15'.
+Info:  SVF Operation 28 (Line: 249) - uniquify.  Status: rejected
+Info:  Pre-verification of r:/WORK/pit_prescale_15_1_0/mult_add_122_aco SUCCEEDED.
+
+

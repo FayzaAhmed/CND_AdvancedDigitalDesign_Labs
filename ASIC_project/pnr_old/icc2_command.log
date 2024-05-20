@@ -1,0 +1,9 @@
+#@ # 
+#@ # Running icc2_shell Version V-2023.12 for linux64 -- Nov 23, 2023
+#@ # Date:   Tue May  7 17:21:13 2024
+#@ # Run by: vlsi@elc-auc-vlsi-45-lnx
+#@ 
+
+start_gui
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+open_lib /run/media/vlsi/KINGSTON/ADD/ASIC_project/pnr_old/counter.dlib -edit

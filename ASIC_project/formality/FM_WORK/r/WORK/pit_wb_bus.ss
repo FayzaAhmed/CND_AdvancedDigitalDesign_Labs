@@ -1,0 +1,2 @@
+-1 12 89 11 0 33 5022 110 3 FMR_ELAB-022/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v/pit_wb_busPrivate message for simsyn report
+-1 12 89 11 0 33 5022 130 3 FMR_ELAB-022/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v/pit_wb_busPrivate message for simsyn report

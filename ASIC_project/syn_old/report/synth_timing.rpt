@@ -1,0 +1,265 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 10
+Design : pit_top
+Version: V-2023.12
+Date   : Sat Mar 16 12:05:51 2024
+****************************************
+
+Operating Conditions: WORST   Library: saed90nm_max_lth
+Wire Load Model Mode: enclosed
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[15]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U18/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[15] (pit_wb_bus_0_16_0)               0.00       0.36 f
+  wb_dat_o[15] (out)                                      0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[14]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U19/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[14] (pit_wb_bus_0_16_0)               0.00       0.36 f
+  wb_dat_o[14] (out)                                      0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[11]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U22/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[11] (pit_wb_bus_0_16_0)               0.00       0.36 f
+  wb_dat_o[11] (out)                                      0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[10]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U23/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[10] (pit_wb_bus_0_16_0)               0.00       0.36 f
+  wb_dat_o[10] (out)                                      0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[9]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U9/Q (AO222X1)                                 0.10       0.36 f
+  wishbone/wb_dat_o[9] (pit_wb_bus_0_16_0)                0.00       0.36 f
+  wb_dat_o[9] (out)                                       0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[8]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U10/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[8] (pit_wb_bus_0_16_0)                0.00       0.36 f
+  wb_dat_o[8] (out)                                       0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U16/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[2] (pit_wb_bus_0_16_0)                0.00       0.36 f
+  wb_dat_o[2] (out)                                       0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U17/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[1] (pit_wb_bus_0_16_0)                0.00       0.36 f
+  wb_dat_o[1] (out)                                       0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[2]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[2]/Q (DFFX1)                    0.13       0.13 r
+  wishbone/U27/QN (NOR3X0)                                0.13       0.26 f
+  wishbone/U24/Q (AO222X1)                                0.10       0.36 f
+  wishbone/wb_dat_o[0] (pit_wb_bus_0_16_0)                0.00       0.36 f
+  wb_dat_o[0] (out)                                       0.00       0.36 f
+  data arrival time                                                  0.36
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: wishbone/addr_latch_reg[0]
+              (rising edge-triggered flip-flop)
+  Endpoint: wb_dat_o[13]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  pit_top            8000                  saed90nm_max_lth
+  pit_wb_bus_0_16_0  8000                  saed90nm_max_lth
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  wishbone/addr_latch_reg[0]/CLK (DFFX1)                  0.00       0.00 r
+  wishbone/addr_latch_reg[0]/Q (DFFX1)                    0.14       0.14 f
+  wishbone/U26/Q (AND3X1)                                 0.11       0.26 f
+  wishbone/U20/Q (AO222X1)                                0.08       0.34 f
+  wishbone/wb_dat_o[13] (pit_wb_bus_0_16_0)               0.00       0.34 f
+  wb_dat_o[13] (out)                                      0.00       0.34 f
+  data arrival time                                                  0.34
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

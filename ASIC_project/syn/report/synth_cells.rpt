@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : cell
+Design : pit_top
+Version: V-2023.12
+Date   : Sat Mar 16 12:05:51 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    p - parameterized
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+counter                   pit_count_COUNT_SIZE16          1392.537612
+                                                                    h, n, p
+prescale                  pit_prescale_15_1_0             1173.196816
+                                                                    h, n, p
+regs                      pit_regs_0_16_0_16              1317.888009
+                                                                    h, n, p
+wishbone                  pit_wb_bus_0_16_0               468.172798
+                                                                    h, n, p
+--------------------------------------------------------------------------------
+Total 4 cells                                             4351.795236
+1

@@ -1,0 +1,222 @@
+
+                                 Formality (R)
+
+                 Version V-2023.12 for linux64 - Nov 16, 2023 
+
+                    Copyright (c) 1988 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Build: 8560677
+Hostname: elc-p07-2088-05-lnx
+Current time: Sat Mar 16 12:07:14 2024
+
+Loading db file '/eda/synopsys/fm/V-2023.12/libraries/syn/gtech.db'
+fm_shell (setup)> start _gui &
+Initialized gui preferences from file .synopsys_fmg
+Load menu definitions /eda/synopsys/fm/V-2023.12/auxx/gui/fm/menu_setup.tcl
+cd /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/formality
+FmGui2> fm_shell (setup)> set_svf -append { /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/default.svf /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_count.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_prescale.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_regs.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_top.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v } 
+Error: Invalid SVF, contents ignored (FM-339)
+0
+fm_shell (setup)> set_svf -append { /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/default.svf } 
+SVF appended with '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/default.svf'.
+1
+fm_shell (setup)> read_verilog -container r -libname WORK -05 { /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_count.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_prescale.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_regs.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_top.v /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v } 
+Loading verilog file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_count.v'
+Loading verilog file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_prescale.v'
+Loading verilog file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_regs.v'
+Loading verilog file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_top.v'
+Loading include file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_count.v'
+Loading include file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_prescale.v'
+Warning: Overwriting existing module 'pit_count' with newer version. (File: /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_count.v Line: 39)  (FMR_VLOG-064)
+Loading include file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_regs.v'
+Warning: Overwriting existing module 'pit_prescale' with newer version. (File: /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_prescale.v Line: 39)  (FMR_VLOG-064)
+Loading include file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v'
+Warning: Overwriting existing module 'pit_regs' with newer version. (File: /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_regs.v Line: 39)  (FMR_VLOG-064)
+Loading verilog file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v'
+Warning: Overwriting existing module 'pit_wb_bus' with newer version. (File: /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/RTL/pit_wb_bus.v Line: 39)  (FMR_VLOG-064)
+Current container set to 'r'
+1
+fm_shell (setup)> set_top r:/WORK/pit_top 
+Setting top design to 'r:/WORK/pit_top'
+Status:   Elaborating design pit_top   ...  
+Status:   Elaborating design pit_wb_bus  ARST_LVL=1'b0, DWIDTH=16, SINGLE_CYCLE=1'b0 ...  
+Information: Created design named 'pit_wb_bus_0_16_0'. (FE-LINK-13)
+Status:   Elaborating design pit_regs  ARST_LVL=1'b0, COUNT_SIZE=16, NO_PRESCALE=1'b0, DWIDTH=16 ...  
+Information: Created design named 'pit_regs_0_16_0_16'. (FE-LINK-13)
+Status:   Elaborating design pit_prescale  COUNT_SIZE=15, DECADE_CNTR=1'b1, NO_PRESCALE=1'b0 ...  
+Information: Created design named 'pit_prescale_15_1_0'. (FE-LINK-13)
+Status:   Elaborating design pit_count  COUNT_SIZE=16 ...  
+Information: Created design named 'pit_count_COUNT_SIZE16'. (FE-LINK-13)
+Status:  Implementing inferred operators...
+Top design successfully set to 'r:/WORK/pit_top'
+Reference design set to 'r:/WORK/pit_top'
+1
+fm_shell (setup)> read_verilog -container i -libname WORK -05 { /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/output/pit_top.v } 
+Loading verilog file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/output/pit_top.v'
+Current container set to 'i'
+1
+fm_shell (setup)> read_db { /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/StandardCell/SAED90nm_EDK_10072017/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db } 
+Loading db file '/home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/StandardCell/SAED90nm_EDK_10072017/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_max_lth.db'
+1
+fm_shell (setup)> set_top i:/WORK/pit_top 
+Setting top design to 'i:/WORK/pit_top'
+Status:  Implementing inferred operators...
+
+************ Library Checking Summary ************
+Warning:  60 unlinked power cell(s) with no power down function on an ff or latch.
+        Use 'report_libraries -defects all' for more details.
+**************************************************
+
+Top design successfully set to 'i:/WORK/pit_top'
+Implementation design set to 'i:/WORK/pit_top'
+1
+fm_shell (setup)> verify 
+Reference design is 'r:/WORK/pit_top'
+Implementation design is 'i:/WORK/pit_top'
+Status:  Checking designs...
+Warning: 1 (0) undriven nets found in reference (implementation) design; see formality.log for list (FM-399)
+Status:  Building verification models...
+Status:  Processing Guide Commands...
+SVF BEGIN: Timestamp: Cpu: 0.000h, Wall: 0.093h, Mem: 0.697G, Current time: Sat Mar 16 12:12:48 2024
+SVF END: Timestamp: Cpu: 0.000h, Wall: 0.093h, Mem: 0.722G, Current time: Sat Mar 16 12:12:49 2024
+
+***************************** Guidance Summary *****************************
+                                         Status
+Command                 Accepted   Rejected  Unsupported  Unprocessed  Total
+----------------------------------------------------------------------------
+change_names        :          4          0          0          0          4
+environment         :          5          0          0          0          5
+file_info           :          5          0          0          0          5
+instance_map        :          4          0          0          0          4
+mark                :         10          0          0          0         10
+multiplier          :          1          0          0          0          1
+replace             :          1          0          0          0          1
+transformation
+   map              :          5          0          0          0          5
+uniquify            :          5          3          0          0          8
+----------------------------------------------------------------------------
+Total               :         40          3          0          0         43
+
+Note: If verification succeeds you can safely ignore unaccepted guidance commands.
+
+Note: No guide_hier_map commands were found in the SVF. It is
+      important to enable guide_hier_map generation in
+      Design Compiler to avoid SVF rejections that can cause
+      aborted/failing points or long run times during verification.
+      In Design Compiler the recommended methodology uses variable
+      hdlin_enable_hier_map and command set_verification_top.
+
+SVF files read:
+      /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/syn/default.svf
+
+SVF files produced:
+  /home/vlsi/Desktop/dont_deleteee_sec16_solyman/digital_labs/ASIC_project/formality/formality_svf/
+    svf.txt
+****************************************************************************
+
+Status:  Matching...
+
+*********************************** Matching Results ***********************************
+ 83 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 26 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+Status:  Verifying...
+
+
+********************************* Verification Results *********************************
+Verification SUCCEEDED
+----------------------
+ Reference design: r:/WORK/pit_top
+ Implementation design: i:/WORK/pit_top
+ 83 Passing compare points
+----------------------------------------------------------------------------------------
+Matched Compare Points     BBPin    Loop   BBNet     Cut    Port     DFF     LAT   TOTAL
+----------------------------------------------------------------------------------------
+Passing (equivalent)           0       0       0       0      21      62       0      83
+Failing (not equivalent)       0       0       0       0       0       0       0       0
+****************************************************************************************
+1
+fm_shell (verify)> match 
+Reference design is 'r:/WORK/pit_top'
+Implementation design is 'i:/WORK/pit_top'
+
+*********************************** Matching Results ***********************************
+ 83 Compare points matched previously
+ 0 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 26 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+1
+fm_shell (verify)> verify -restart 
+Reference design is 'r:/WORK/pit_top'
+Implementation design is 'i:/WORK/pit_top'
+
+*********************************** Matching Results ***********************************
+ 83 Compare points matched previously
+ 0 Compare points matched by name
+ 0 Compare points matched by signature analysis
+ 0 Compare points matched by topology
+ 26 Matched primary inputs, black-box outputs
+ 0(0) Unmatched reference(implementation) compare points
+ 0(0) Unmatched reference(implementation) primary inputs, black-box outputs
+****************************************************************************************
+
+Status:  Verifying...
+
+
+********************************* Verification Results *********************************
+Verification SUCCEEDED
+----------------------
+ Reference design: r:/WORK/pit_top
+ Implementation design: i:/WORK/pit_top
+ 83 Passing compare points
+----------------------------------------------------------------------------------------
+Matched Compare Points     BBPin    Loop   BBNet     Cut    Port     DFF     LAT   TOTAL
+----------------------------------------------------------------------------------------
+Passing (equivalent)           0       0       0       0      21      62       0      83
+Failing (not equivalent)       0       0       0       0       0       0       0       0
+****************************************************************************************
+1
+[03/16/2024 13:07:29] [27020@10.2.122.113] INFO: License server is unreachable (Network connectivity issue or Server down). Lost licenses. Your job is suspended during reconnect. (SCL-200)
+[03/16/2024 13:08:11] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:13:41] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:19:09] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:24:49] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:30:24] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:36:19] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:41:49] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:47:19] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:53:13] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 13:59:29] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:04:59] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:10:27] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:15:57] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:21:26] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:26:56] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:32:26] INFO: Unable to checkout all keys during re-connect. Queuing for remaining feature. (SCL-210)
+[03/16/2024 14:37:26] [27020@10.2.122.113 Formality 1 keys] INFO: Reacquired license after server disconnect. (SCL-203)
+1
+fm_shell (verify)> 

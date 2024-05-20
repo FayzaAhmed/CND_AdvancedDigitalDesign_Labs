@@ -1,0 +1,7 @@
+# struct_name_map
+addr_latch[0]
+addr_latch_reg[0]
+addr_latch[1]
+addr_latch_reg[1]
+addr_latch[2]
+addr_latch_reg[2]
